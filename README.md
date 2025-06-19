@@ -1,4 +1,4 @@
-# Cursor to Marp
+# Cline to Marp
 
 CursorのAIアシスタントを使用して、MarkdownファイルからMarpスライドを簡単に生成するリポジトリです。
 
