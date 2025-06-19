@@ -8,6 +8,9 @@ style: |
   section {
     font-family: 'Hiragino Sans', 'Noto Sans CJK JP', sans-serif;
     font-size: 28px;
+    background-image: url("./.images/background.png");
+    background-position: right bottom;
+    background-size: 100%;
     background-repeat: no-repeat;
   }
   table {
@@ -19,13 +22,6 @@ style: |
   }
   header img {
     max-height: 120px;
-  }
-  /* 表紙ページの背景 */
-  section.cover {
-    background-image: url("./.images/background.png");
-    background-position: right bottom;
-    background-size: 100%;
-    background-repeat: no-repeat;
   }
   h1 {
     font-size: 42px;
