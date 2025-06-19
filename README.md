@@ -54,3 +54,35 @@ ClineのAIアシスタントを使用して、MarkdownファイルからMarpス�
 3. 日本語対応
    - フォントは'Hiragino Sans'と'Noto Sans CJK JP'を使用
    - 文字化けが発生する場合はフォントの確認を
+
+## 編集可能なPowerPointファイルの生成
+
+### 前提条件
+- LibreOfficeのインストールが必要です
+- 以下のコマンドでインストール可能：
+```bash
+winget install --id TheDocumentFoundation.LibreOffice
+```
+
+### 生成方法
+1. **通常のPowerPointファイル生成**
+```bash
+npx @marp-team/marp-cli "ファイル名.md" --pptx --output "出力ファイル名.pptx" --allow-local-files
+```
+
+2. **編集可能なPowerPointファイル生成**
+```bash
+npx @marp-team/marp-cli --no-config "ファイル名.md" --pptx --pptx-editable --output "出力ファイル名_編集可能.pptx" --allow-local-files
+```
+
+### 実行例
+```bash
+# 編集可能なPowerPointファイルを生成
+npx @marp-team/marp-cli --no-config "20250619_AI駆動開発による要件定義の革新.md" --pptx --pptx-editable --output "20250619_AI駆動開発による要件定義の革新_編集可能.pptx" --allow-local-files
+```
+
+### 注意事項
+- `--pptx-editable`は実験的機能です
+- LibreOfficeに依存するため、スライドの再現性は完全には保証されません
+- 生成されたPowerPointファイルはMicrosoft PowerPointで編集可能です
+- Marpのスタイルとテーマが保持されます
