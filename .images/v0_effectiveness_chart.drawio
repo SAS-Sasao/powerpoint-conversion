@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net" modified="2025-06-19T08:38:00.000Z" agent="5.0" etag="def456" version="21.1.0" type="device">
+  <diagram name="V0効果グラフ" id="v0-effectiveness">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- タイトル -->
+        <mxCell id="title" value="V0活用による効果" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontColor=#2C3E50;" vertex="1" parent="1">
+          <mxGeometry x="300" y="30" width="200" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- 要件確定速度 -->
+        <mxCell id="req-label" value="要件確定速度" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#2C3E50;" vertex="1" parent="1">
+          <mxGeometry x="50" y="100" width="120" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="req-bar-before" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E74C3C;strokeColor=#C0392B;" vertex="1" parent="1">
+          <mxGeometry x="200" y="105" width="100" height="20" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="req-bar-after" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#27AE60;strokeColor=#229954;" vertex="1" parent="1">
+          <mxGeometry x="200" y="130" width="130" height="20" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="req-improvement" value="+30%" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#27AE60;" vertex="1" parent="1">
+          <mxGeometry x="340" y="125" width="40" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- 画面開発工数 -->
+        <mxCell id="dev-label" value="画面開発工数" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#2C3E50;" vertex="1" parent="1">
+          <mxGeometry x="50" y="180" width="120" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="dev-bar-before" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E74C3C;strokeColor=#C0392B;" vertex="1" parent="1">
+          <mxGeometry x="200" y="185" width="120" height="20" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="dev-bar-after" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#3498DB;strokeColor=#2980B9;" vertex="1" parent="1">
+          <mxGeometry x="200" y="210" width="72" height="20" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="dev-improvement" value="-40%" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#3498DB;" vertex="1" parent="1">
+          <mxGeometry x="280" y="205" width="40" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- 手戻り工数 -->
+        <mxCell id="rework-label" value="手戻り工数" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#2C3E50;" vertex="1" parent="1">
+          <mxGeometry x="50" y="260" width="120" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="rework-bar-before" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E74C3C;strokeColor=#C0392B;" vertex="1" parent="1">
+          <mxGeometry x="200" y="265" width="100" height="20" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="rework-bar-after" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F39C12;strokeColor=#E67E22;" vertex="1" parent="1">
+          <mxGeometry x="200" y="290" width="50" height="20" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="rework-improvement" value="-50%" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#F39C12;" vertex="1" parent="1">
+          <mxGeometry x="260" y="285" width="40" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- 凡例 -->
+        <mxCell id="legend-before" value="従来" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E74C3C;strokeColor=#C0392B;fontSize=12;fontColor=white;" vertex="1" parent="1">
+          <mxGeometry x="450" y="150" width="60" height="25" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="legend-after" value="V0活用後" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#27AE60;strokeColor=#229954;fontSize=12;fontColor=white;" vertex="1" parent="1">
+          <mxGeometry x="450" y="180" width="80" height="25" as="geometry" />
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,102 @@
+<mxfile host="app.diagrams.net" modified="2025-06-19T08:37:00.000Z" agent="5.0" etag="abc123" version="21.1.0" type="device">
+  <diagram name="AI駆動開発フロー" id="ai-driven-flow">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- 従来プロセス -->
+        <mxCell id="traditional-title" value="従来プロセス" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#FF6B6B;" vertex="1" parent="1">
+          <mxGeometry x="50" y="50" width="120" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="req-def" value="要件定義" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE5E5;strokeColor=#FF6B6B;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="50" y="100" width="80" height="40" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="design" value="設計書作成" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE5E5;strokeColor=#FF6B6B;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="170" y="100" width="80" height="40" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="implement" value="実装" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE5E5;strokeColor=#FF6B6B;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="290" y="100" width="80" height="40" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="test" value="テスト" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE5E5;strokeColor=#FF6B6B;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="410" y="100" width="80" height="40" as="geometry" />
+        </mxCell>
+        
+        <!-- 矢印 -->
+        <mxCell id="arrow1" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="req-def" target="design">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="120" as="sourcePoint" />
+            <mxPoint x="160" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="arrow2" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="design" target="implement">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="120" as="sourcePoint" />
+            <mxPoint x="280" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="arrow3" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="implement" target="test">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="120" as="sourcePoint" />
+            <mxPoint x="400" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- AI駆動プロセス -->
+        <mxCell id="ai-title" value="AI駆動プロセス" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#4ECDC4;" vertex="1" parent="1">
+          <mxGeometry x="50" y="200" width="120" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="v0-poc" value="V0 PoC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E5F9F6;strokeColor=#4ECDC4;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="50" y="250" width="80" height="40" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="cline-design" value="Cline設計書生成" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E5F9F6;strokeColor=#4ECDC4;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="170" y="250" width="80" height="40" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="cline-implement" value="Cline実装" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E5F9F6;strokeColor=#4ECDC4;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="290" y="250" width="80" height="40" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="test2" value="テスト" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E5F9F6;strokeColor=#4ECDC4;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="410" y="250" width="80" height="40" as="geometry" />
+        </mxCell>
+        
+        <!-- 矢印 -->
+        <mxCell id="arrow4" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="v0-poc" target="cline-design">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="270" as="sourcePoint" />
+            <mxPoint x="160" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="arrow5" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cline-design" target="cline-implement">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="270" as="sourcePoint" />
+            <mxPoint x="280" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="arrow6" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cline-implement" target="test2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="270" as="sourcePoint" />
+            <mxPoint x="400" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- 効果表示 -->
+        <mxCell id="effect" value="30%高速化" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#45B7D1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="250" width="80" height="40" as="geometry" />
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
