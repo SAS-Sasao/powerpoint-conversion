@@ -1,10 +1,10 @@
 # Cline to Marp
 
-CursorのAIアシスタントを使用して、MarkdownファイルからMarpスライドを簡単に生成するリポジトリです。
+ClineのAIアシスタントを使用して、MarkdownファイルからMarpスライドを簡単に生成するリポジトリです。
 
 ## 前提条件
 
-1. Cursorのインストール
+1. Clineのインストール
 2. VS Codeの拡張機能「Marp for VS Code」の追加
 3. テーマの設定
    - VS Codeの設定で、Markdown > Marp:Themesに以下を追加：
