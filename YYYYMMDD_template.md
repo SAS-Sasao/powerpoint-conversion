@@ -1,7 +1,7 @@
 ---
 marp: true
 theme: freud
-footer: 'Copyright (C) ABC inc., All Rights Reserved.'
+footer: 'Copyright（c）2025 Software agency system Co., Ltd. All Rights Reserved.'
 paginate: true
 header: '<img src="./.images/logo.png" alt="logo" style="float: right;">'
 style: |
