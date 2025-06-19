@@ -28,7 +28,7 @@ ClineのAIアシスタントを使用して、MarkdownファイルからMarpス�
    - ※mdファイルの名前は任意のものでも構いません
 
 2. スライド生成ルールの適用
-   - CursorのAIチャットの@rulesにて「slidemarprules」を設定
+   - `.clinerules/01-powerpoint-conversion.md`にルールが定義済み
    - これにより、以下のルールが自動的に適用されます：
      - テンプレートの使用
      - 文字数制限
@@ -37,7 +37,7 @@ ClineのAIアシスタントを使用して、MarkdownファイルからMarpス�
      - フォーマット制限   
 
 3. スライドの生成
-   - CursorのAIチャットに「@input.md を元にスライド生成」と指示
+   - Clineに「@input.md を元にスライド生成」と指示
    - 自動的に`YYYYMMDD_タイトル.md`形式でスライドが生成されます
    - ※1でファイル名を変更している場合は任意のものに変更すること
 
